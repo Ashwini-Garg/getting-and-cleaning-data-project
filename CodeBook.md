@@ -48,8 +48,9 @@ data:
     from integer to factor containing descriptive activity names.
 
 8.  Changes the column names for various measurements by getting rid of
-    underscores, brackets and abbreviations and converting to lower
-    case.
+    underscores and abbreviations and converting to lower case. The
+    script assumes that the double "bodybody" in the original
+    measurement name is a mistake and replaces it with a single "body".
 
 9.  Finally, creates tidy data set with the average of every measurement
     for each activity and subject. Since there are 30 subjects and 6

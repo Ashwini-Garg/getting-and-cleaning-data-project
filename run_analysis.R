@@ -124,7 +124,7 @@ rm(meanstddata)
 
 tidydata <- dcast(meltdata, ... ~ variable, mean)
 
-# Remove measuremelt data frame 
+# Remove melt data frame 
 rm(meltdata)
 
 # Write tidy data to a text file. The file is written to the current working directory.
